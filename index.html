@@ -332,26 +332,15 @@
         </div>
     </section>
 
-   
-    <body>
-
-        <h1>My First Google Map</h1>
-        
-        <div id="googleMap" style="width:100%;height:400px;"></div>
-        
-        <script>
-        function myMap() {
-        var mapProp= {
-          center:new google.maps.LatLng(51.508742,-0.120850),
-          zoom:5,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-        </script>
-        
-        
-        </body>
-
+    <iframe
+    width="600"
+    height="450"
+    style="border:0"
+    loading="lazy"
+    allowfullscreen
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCPJGYek1ZR7V9IaD9bu89eytNbTP05boo
+      &q=Space+Needle,Seattle+WA">
+  </iframe>
 
 
 
@@ -361,6 +350,7 @@
 <script src="d.js"></script>
 <script src="animation.js"></script>
 <script src="profile.js"></script>
+<script src="ma.js"></script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPJGYek1ZR7V9IaD9bu89eytNbTP05boo&callback=myMap"></script>
 
