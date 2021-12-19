@@ -1,0 +1,41 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .map .column {
+    float: left;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  .map .left {
+    width: 30%;
+  }
+  
+  .map .right {
+    width: 70%;
+    background-image: url("vbspulocation.png");
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+  }
+  
+  /* Clear floats after the columns */
+  .map .row:after {
+    content: "";
+    display: table; 
+    clear: both;
+  }
+  .column p {
+      color: black;
+  }
+  @media screen and (max-width: 600px) {
+   .map .column {
+      width: 100%;
+    }
+  }
+  
+ 

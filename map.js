@@ -1,68 +1,15 @@
+// Initialize and add the map
 function initMap() {
-  // Create the map.
-  const pyrmont = { lat: -33.866, lng: 151.196 };
+  // The location of Uluru
+  const uluru = { lat: 25.831038489199162, lng: 82.68174163963644 };
+  // The map, centered at Uluru
   const map = new google.maps.Map(document.getElementById("map"), {
-    center: pyrmont,
-    zoom: 17,
-    mapId: "8d193001f940fde3",
+    zoom: 18,
+    center: uluru,
   });
-  // Create the places service.
-  const service = new google.maps.places.PlacesService(map);
-  let getNextPage;
-  const moreButton = document.getElementById("more");
-
-  moreButton.onclick = function () {
-    moreButton.disabled = true;
-    if (getNextPage) {
-      getNextPage();
-    }
-  };
-
-  // Perform a nearby search.
-  service.nearbySearch(
-    { location: pyrmont, radius: 500, type: "store" },
-    (results, status, pagination) => {
-      if (status !== "OK" || !results) return;
-
-      addPlaces(results, map);
-      moreButton.disabled = !pagination || !pagination.hasNextPage;
-      if (pagination && pagination.hasNextPage) {
-        getNextPage = () => {
-          // Note: nextPage will call the same handler function as the initial call
-          pagination.nextPage();
-        };
-      }
-    }
-  );
-}
-
-function addPlaces(places, map) {
-  const placesList = document.getElementById("places");
-
-  for (const place of places) {
-    if (place.geometry && place.geometry.location) {
-      const image = {
-        url: place.icon,
-        size: new google.maps.Size(71, 71),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(17, 34),
-        scaledSize: new google.maps.Size(25, 25),
-      };
-
-      new google.maps.Marker({
-        map,
-        icon: image,
-        title: place.name,
-        position: place.geometry.location,
-      });
-
-      const li = document.createElement("li");
-
-      li.textContent = place.name;
-      placesList.appendChild(li);
-      li.addEventListener("click", () => {
-        map.setCenter(place.geometry.location);
-      });
-    }
-  }
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
 }
