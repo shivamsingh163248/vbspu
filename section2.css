@@ -332,6 +332,10 @@ button {
   font-size: 15px;  
   padding: 10px;  
  }
+
+ .slider-container .left-slide{
+   display: none;
+ }
 }
 
 
