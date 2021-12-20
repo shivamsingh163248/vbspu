@@ -13,7 +13,8 @@ body{
     
     padding: 0px;
     margin: 0px;
-    background-color: aqua;
+    
+    background: linear-gradient(to right, #e3e4dc -10%, #9d9e98 100%);
     
 
 
