@@ -134,13 +134,27 @@ body {font-family: Arial, Helvetica, sans-serif;}
   .registervbspu a:active {
     color: blue;
   }
+
+  /* this section enable when we need 
   .registerfooter{
     text-align: center;
-    box-sizing: border-box;
-    color: #aeaaaa;
+   
+    color: #000000;
+    background-color: #FFFFFF;
+    box-sizing: initial;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 30px;
+    overflow: hidden;
+   
+    
     
    
   }
+
+
+
+    */
 
 
 
