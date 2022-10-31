@@ -199,4 +199,8 @@
 		margin-left: 0;
 	}
 
+    .footer-distributed .footer-center{
+        display: none;
+    }
+
 }
