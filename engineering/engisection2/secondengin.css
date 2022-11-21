@@ -1,0 +1,75 @@
+.engidocumentation{
+    box-sizing: border-box;
+    height: 750px;
+    
+    background-image: url(images/2.png) ,  linear-gradient(to right, #9d9d9d -10%, #ffffff 100%);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    
+   
+    
+}
+.engiabout{
+    box-sizing: content-box;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: absolute;
+    text-align: left;
+    
+
+}
+.engiabout #mainname{
+    color: #000000;
+    font-size: 60px;
+    margin: 1px;
+   
+    font-family: 'Noto Serif Oriya', serif;
+    text-decoration-line: underline ;
+    text-decoration-color: rgb(109, 108, 108);
+    text-decoration-style: solid ;
+    text-decoration-thickness: 2px ;
+    
+  
+   
+    
+    
+}
+
+.engiabout #subname{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:#9b9aa0;
+    height: 3px;
+    border-top: solid;
+    border-radius: 10px;
+    
+    
+  }
+
+
+
+
+.namebackground{
+    box-sizing: content-box;
+    
+    background : linear-gradient(to right, #8d8b8b -10%, #ffffff 100%);
+    margin: 10px;
+    width: 1000px;
+    padding: 33px;
+    border-radius: 30px;
+    opacity: 0.8;
+    display: grid;
+    overflow: hidden;
+
+}
