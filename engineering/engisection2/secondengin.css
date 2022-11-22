@@ -1,6 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+
+  .engicolumn {
+
+    
+   height: 700px;
+   
+    /* Should be removed. Only for demonstration */
+  }
+  
+  .engileft {
+    width: 100%;
+  }
+  
+  .engiright {
+    width: 0%;
+    display: none;
+  }
+  
+  /* Clear floats after the columns */
+  .engirow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
 .engidocumentation{
     box-sizing: border-box;
-    height: 750px;
+   
     
     background-image: url(images/56.png) ,  linear-gradient(to right, #9d9d9d -10%, #ffffff 100%);
     background-repeat: no-repeat;
@@ -61,15 +95,17 @@ hr {
 
 
 .namebackground{
-    box-sizing: content-box;
+    box-sizing: border-box;
     
     background : linear-gradient(to right, #8d8b8b -10%, #ffffff 100%);
     margin: 10px;
-    width: 1000px;
+    width: 80%;
     padding: 33px;
     border-radius: 30px;
     opacity: 0.8;
     display: grid;
     overflow: hidden;
+    position: relative;
+    
 
 }
