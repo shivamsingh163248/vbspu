@@ -3,7 +3,7 @@
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 60%;
     border: none;
     text-align: left;
     outline: none;
@@ -12,7 +12,7 @@
   }
   
   .active, .collapsible:hover {
-    background-color: rgb(71, 7, 7);
+    background-color: rgb(1, 2, 22);
   }
   
   .collapsible:after {
@@ -33,8 +33,15 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
+    width: 90%;
   }
   .slideunsit{
     margin-top: 50px;
 
+  }
+
+  @media screen and (max-width: 600px){
+    .collapsible {
+      width: 100%;
+    }
   }

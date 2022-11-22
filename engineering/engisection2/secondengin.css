@@ -7,7 +7,7 @@
   .engicolumn {
 
     
-   height: 700px;
+   height: 800px;
    
     /* Should be removed. Only for demonstration */
   }
@@ -75,6 +75,7 @@
     color: #000000;
     font-size: 40px;
     font-weight: 200;
+    margin-right: 20%;
 }
 
 
@@ -99,7 +100,7 @@ hr {
     
     background : linear-gradient(to right, #8d8b8b -10%, #ffffff 100%);
     margin: 10px;
-    width: 100%;
+    width: 99%;
     padding: 33px;
     border-radius: 30px;
     opacity: 0.8;
@@ -107,5 +108,78 @@ hr {
     overflow: hidden;
     position: relative;
     
+
+}
+.namebackground img{
+  height: 150px;
+ display: block;
+ position: absolute;
+ margin-left: 35%;
+ margin-top: 20px;
+
+ 
+ 
+  
+
+}
+
+
+
+
+@media screen and (max-width: 600px){
+  .engiabout #subname{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 200;
+}
+.engiabout #mainname{
+  color: #000000;
+  font-size: 30px;
+  margin: 1px;
+ 
+}
+
+.engicolumn {
+
+    
+  height: 500px;
+}
+.engiabout{
+  
+  margin-left: 2%;
+  margin-top: 3%;
+  
+  
+
+}
+.namebackground img{
+  height: 100px;
+ 
+ margin-top: 20px;
+
+ 
+ 
+  
+
+}
+
+
+
+}
+
+@media screen and (max-width: 400px){
+
+  .engiabout{
+  
+    margin-left: 0%;
+    
+    }
+
+
+  .namebackground{
+    margin-left: 1px;
+  }
+
+
 
 }
