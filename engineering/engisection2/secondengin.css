@@ -75,7 +75,7 @@
     color: #000000;
     font-size: 40px;
     font-weight: 200;
-    margin-right: 20%;
+    
 }
 
 
@@ -113,9 +113,11 @@ hr {
 .namebackground img{
   height: 150px;
  display: block;
- position: absolute;
- margin-left: 35%;
- margin-top: 20px;
+ position: relative;
+ justify-content: left;
+ justify-items: left;
+ margin-top: 2px;
+ width: auto;
 
  
  
@@ -155,7 +157,7 @@ hr {
 .namebackground img{
   height: 100px;
  
- margin-top: 20px;
+ 
 
  
  
@@ -182,13 +184,19 @@ hr {
   .namebackground img{
     
    
-   margin-top: 40px;
+  margin-top: 1px;
+}
+
+
+
+.engiabout #subname{
   
-   
-   
-    
-  
-  }
+  font-size: 15px;
+  font-weight: 100;
+}
+
+
+
   
 
 
