@@ -7,7 +7,7 @@
   .engicolumn {
 
     
-   height: 800px;
+   height: 900px;
    
     /* Should be removed. Only for demonstration */
   }
@@ -36,7 +36,7 @@
     box-sizing: border-box;
    
     
-    background-image: url(images/56.png) ,  linear-gradient(to right, #9d9d9d -10%, #ffffff 100%);
+    background-image: url(images/56.png) ,  linear-gradient(to right, #e8e8e8 -10%, #ffffff 100%);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -98,7 +98,7 @@ hr {
 .namebackground{
     box-sizing: border-box;
     
-    background : linear-gradient(to right, #8d8b8b -10%, #ffffff 100%);
+    background : linear-gradient(to right, #908e8e -10%, #ffffff 100%);
     margin: 10px;
     width: 99%;
     padding: 33px;
