@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .engibranch .engisection3column {
+    float: left;
+    width: 33.33%;
+    padding: 0 40px;
+    
+    margin-bottom: 60px;
+
+     /*  chack for the zoom however */
+     transition: transform .2s;
+
+  }
+
+
+  .engisection3column:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    
+
+
+  }
+/*  thisa is the chacking for the trasiation 
+  .engibranch .engicardhover:hover{
+    opacity: 0.5;
+    transition: 1s;
+    height: 350px;
+    width: 100%;
+    
+    transition-timing-function:ease;
+    background-color: rgb(157, 95, 19);
+    
+   
+    
+  }
+  
+  .engibranch .engicardhover{
+  height: 1px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  
+ 
+  
+}
+*/
+
+  
+  /* Remove extra left and right margins, due to padding */
+  .engibranch .engisection3row {margin: 0 -5px;
+   background-color:inherit;
+   height: 500px;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 40px;
+   }
+  
+  /* Clear floats after the columns */
+  .engibranch .engisection3row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 400px) {
+    .engibranch .engisection3column {
+      width: 50%;
+      display: grid;
+      margin-bottom: 60px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .engibranch .engicard {
+    box-shadow: 0 5px 8px 0 rgba(18, 17, 17, 0.347);
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 350px;
+  }
+
+    #branchlogo img{
+    height: 150px;
+  }

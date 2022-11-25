@@ -1,0 +1,21 @@
+
+  .zoom {
+    
+    background-color: initial;
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    box-sizing: content-box;
+ 
+    background-size: contain;
+    background-position: center;
+    justify-content: center;
+  }
+  
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
