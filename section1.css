@@ -112,7 +112,7 @@ font-family: 'Playfair Display', serif;
 
 /*button on the veer bahdur singh purvanchal university*/
 .btne {
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 40px;
   background-color: inherit;
   color: black;

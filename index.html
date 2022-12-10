@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vbspu</title>
     <link rel="icon" type="image/x-icon" href="favicon_io\favicon.ico">
+    
     <link rel="stylesheet" href="profile.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="section2.css">
@@ -20,6 +21,10 @@
     <link rel="stylesheet" href="timelineanimation.css">
     <link rel="stylesheet" href="notification.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="preloder.css">
+
+    <script src="preloder.js"></script>
+
 
 
 
@@ -30,22 +35,22 @@
         crossorigin="anonymous" />
 
 
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
 
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HRPCMVVP9M"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HRPCMVVP9M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-HRPCMVVP9M');
-</script> 
+        gtag('config', 'G-HRPCMVVP9M');
+    </script>
 
 
-<!-- <script> alert("This website made only for the project purpose you use only fot the information ")  </script> -->
+    <!-- <script> alert("This website made only for the project purpose you use only fot the information ")  </script> -->
 
 
 
@@ -57,28 +62,33 @@
 <body>
 
 
+    <div class="inlineee">
+        <div class="centerrrrr"></div>
 
-    <div class="topnav" id="nevigation">
-        <a href="login.html" class="activeate">Home</a>
-        <a href="#depatment1" class="services">Notificaton</a>
-        <a href="#contact" class="contacts">contacts</a>
-        <div class="dropdown">
-            <button class="dropbtn">important
-                <i class="fas fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="http://www.vbspu.ac.in/home-page/">vbspu</a>
-                <a href="#section1">notification</a>
-                <a href="engineering/index.html">Engineering</a>
-                <a href="https://engineering.vbspu.info/">services</a>
-                <a href="#">services</a>
+    <section>
+
+        <div class="topnav" id="nevigation">
+            <a href="login.html" class="activeate">Home</a>
+            <a href="#depatment1" class="services">Notificaton</a>
+            <a href="#contact" class="contacts">contacts</a>
+            <div class="dropdown">
+                <button class="dropbtn">important
+                    <i class="fas fa-angle-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="http://www.vbspu.ac.in/home-page/">vbspu</a>
+                    <a href="#section1">notification</a>
+                    <a href="engineering/index.html">Engineering</a>
+                    <a href="https://engineering.vbspu.info/">services</a>
+                    <a href="#">services</a>
+                </div>
+
             </div>
+            <a href="#call">call</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 
         </div>
-        <a href="#call">call</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-
-    </div>
+    </section>
 
 
     <section class="logopage">
@@ -94,8 +104,9 @@
                 </div>
                 <hr>
                 <div class="login">
-                    <!--  <a href="https://google.com" target="blank">  -->  <button  class="button"   onclick="document.getElementById('id01').style.display='block'" ><span>login </span>
-                        </button> <!-- </a>  -->     &ensp;
+                    <!--  <a href="https://google.com" target="blank">  --> <button class="button"
+                        onclick="document.getElementById('id01').style.display='block'"><span>login </span>
+                    </button> <!-- </a>  --> &ensp;
                     <a href="https://google.com" target="blank"><button class="button"><span>Register
                             </span></button></a>
                 </div>
@@ -122,16 +133,17 @@
     <!--
         we are the add hear the login page
     -->
- 
 
+<section>
     <div id="id01" class="modal">
-        
-        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
 
         <form action="/action_page.php" style="max-width:500px;margin:auto">
 
 
-            
+
             <div class="registervbspu">
                 <div class="registertitlename">
 
@@ -166,8 +178,8 @@
                 </div>
             </div>
         </form>
-    
-    <!--
+
+        <!--
     
         <footer>
 
@@ -180,44 +192,47 @@
      -->
 
     </div>
+    </section>
 
 
 
-  
 
 
-    
+
+
 
 
     <section class="map">
         <div class="row">
             <div class="column left" style="background-color:rgb(255, 255, 255);">
-                <iframe
-                width="100%"
-                height="100%"
-                loading="lazy"
-                allowfullscreen
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCPJGYek1ZR7V9IaD9bu89eytNbTP05boo
+                <iframe width="100%" height="100%" loading="lazy" allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCPJGYek1ZR7V9IaD9bu89eytNbTP05boo
                   &q=veer%20bahadur%20singh%20purvanchal%20university+(veer%20bahadur%20singh%20purvanchal%20university)">
                 </iframe>
             </div>
             <div class="column right" style="background-color:rgb(255, 255, 255);">
                 <div class="universityabout">
-              <h2><i class="fa fa-university" aria-hidden="true" style="font-size:70px;color:rgb(83, 77, 77)"></i>&nbsp; About</h2><hr>
-              <p>Purvanchal University, Jaunpur renamed as Veer Bahadur Singh Purvanchal University (in the honour of late Shri Veer Bahadur Singh, former Chief Minister of the state), was established on 2nd October 1987 as an affiliating university under U.P. state university act 1973.
-                  
-              </p>
-              <p id="unipag">The university is located at 10 km from the historic city of Jaunpur on Jaunpur-Shahganj road which divides it’s 171.5 acres campus into two. Jaunpur is well connected by Rail, Road and Air ways with other States.
-                   </p>
-            </div>
-       
-            <div class="login">
-                <a href="https://google.com" target="blank"><button class="button"><span>Learn More </span>
-                    </button></a>
+                    <h2><i class="fa fa-university" aria-hidden="true"
+                            style="font-size:70px;color:rgb(83, 77, 77)"></i>&nbsp; About</h2>
+                    <hr>
+                    <p>Purvanchal University, Jaunpur renamed as Veer Bahadur Singh Purvanchal University (in the honour
+                        of late Shri Veer Bahadur Singh, former Chief Minister of the state), was established on 2nd
+                        October 1987 as an affiliating university under U.P. state university act 1973.
 
+                    </p>
+                    <p id="unipag">The university is located at 10 km from the historic city of Jaunpur on
+                        Jaunpur-Shahganj road which divides it’s 171.5 acres campus into two. Jaunpur is well connected
+                        by Rail, Road and Air ways with other States.
+                    </p>
+                </div>
+
+                <div class="login">
+                    <a href="https://google.com" target="blank"><button class="button"><span>Learn More </span>
+                        </button></a>
+
+                </div>
             </div>
-          </div>
-          
+
     </section>
 
 
@@ -294,9 +309,9 @@
                 <div class="marquee">
                     <p> Marquee in CSS Marquee in CSSMarquee<br> in CSSMarquee in CSS
                         Marquee in CSSMarquee in CSS </p>
-                        
-                            
-                       
+
+
+
                 </div>
             </div>
 
@@ -310,7 +325,7 @@
 
 
     <section id="depatment1">
-        <div class="section1" >
+        <div class="section1">
             <div class="slider-container">
                 <div class="left-slide">
 
@@ -458,9 +473,9 @@
         <div class="container">
             <div>
                 <i class="fa fa-briefcase fa-4x"></i>
-                <div class="counter"  data-target="600">300</div>
-                
-               
+                <div class="counter" data-target="600">300</div>
+
+
                 <h3>Placement</h3>
                 <h4>total number of student </h4>
             </div>
@@ -490,16 +505,16 @@
 
                     <div class="mySlides fade">
                         <div class="numbertext">1 / 7</div>
-                        <img src="photos/1.jpeg" >
+                        <img src="photos/1.jpeg">
                         <div class="text">Caption Text</div>
                     </div>
-            
+
                     <div class="mySlides fade">
                         <div class="numbertext">2 / 7</div>
-                        <img src="photos\2.jpeg" >
+                        <img src="photos\2.jpeg">
                         <div class="text">sangosati bhaean</div>
                     </div>
-            
+
                     <div class="mySlides fade">
                         <div class="numbertext">3 / 7</div>
                         <img src="photos\3.JPG">
@@ -529,10 +544,10 @@
                         <img src="photos\7.jpeg">
                         <div class="text">MEDAL distributation</div>
                     </div>
-            
+
                 </div>
-                
-               
+
+
 
 
             </div>
@@ -542,82 +557,82 @@
         </div>
     </section>
 
-   
-
-
-
-
-
-<!-- now hear the start the footer section -->
- <section class="footersection1"></section>
-<footer class="footer-distributed">
-
-			<div class="footer-left">
-
-				<h3 class="footerlogo"><img src="favicon_io\android-chrome-512x512.png" alt="vbspu"></h3>
-
-				<p class="footer-links">
-					<a href="#" class="link-1">Home</a>
-					
-					<a href="#">Blog</a>
-				
-					<a href="#">Pricing</a>
-				
-					<a href="#">About</a>
-					
-					<a href="#">Faq</a>
-					
-					<a href="#">Contact</a>
-				</p>
-
-				<p class="footer-company-name">Veer Bhadur Singh Purvanchal University © 2022</p>
-			</div>
-
-			<div class="footer-center">
-
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p><span>Shahgang Rod , jaunpur  , 222001 </span> Uteer Pradesh, India</p>
-				</div>
-
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>+91 05452 252 244</p>
-				</div>
-
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="connectpuregistrar @gmail.com">connectpuregistrar @gmail.com</a></p>
-				</div>
-
-			</div>
-
-			<div class="footer-right">
-
-				<p class="footer-company-about">
-					<span>About the University</span>
-					( A UP State University Celebrating 25 Years of Excellence )
-                    The university is located at 10 km from the historic city of Jaunpur on Jaunpur-Shahganj road which divides it’s 171.5 acres campus into two. Jaunpur is well connected by Rail, Road and Air ways with other States.
-				</p>
-
-				<div class="footer-icons">
-
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
-
-				</div>
-
-			</div>
-
-		</footer> 
 
 
 
 
 
 
+    <!-- now hear the start the footer section -->
+    <section class="footersection1"></section>
+    <section><footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3 class="footerlogo"><img src="favicon_io\android-chrome-512x512.png" alt="vbspu"></h3>
+
+            <p class="footer-links">
+                <a href="#" class="link-1">Home</a>
+
+                <a href="#">Blog</a>
+
+                <a href="#">Pricing</a>
+
+                <a href="#">About</a>
+
+                <a href="#">Faq</a>
+
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Veer Bhadur Singh Purvanchal University © 2022</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Shahgang Rod , jaunpur , 222001 </span> Uteer Pradesh, India</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 05452 252 244</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="connectpuregistrar @gmail.com">connectpuregistrar @gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the University</span>
+                ( A UP State University Celebrating 25 Years of Excellence )
+                The university is located at 10 km from the historic city of Jaunpur on Jaunpur-Shahganj road which
+                divides it’s 171.5 acres campus into two. Jaunpur is well connected by Rail, Road and Air ways with
+                other States.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+    </section>
+    </div>
+
+    <p  id="spinner"></p>
 
 
 
@@ -629,6 +644,10 @@
 
 
 
+
+
+
+    </div>
 </body>
 <script src="d.js"></script>
 <script src="animation.js"></script>
@@ -636,12 +655,11 @@
 <script src="ma.js"></script>
 <script src="map.js"></script>
 <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPJGYek1ZR7V9IaD9bu89eytNbTP05boo&callback=initMap&libraries=&v=weekly&channel=2"
-          async
-        ></script>
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPJGYek1ZR7V9IaD9bu89eytNbTP05boo&callback=initMap&libraries=&v=weekly&channel=2"
+    async></script>
 <script src="registorform.js"></script>
 <script src="timeline.js"></script>
- 
+
 
 
 </html>
