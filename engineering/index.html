@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="engisection2/secondengin.css">
   <link rel="stylesheet" href="engisection2/colleps.css">
   <link rel="stylesheet" href="engisection3/engisection3.css">
+  <link rel="stylesheet" href="preloder.css">
+  
  
   
 
@@ -30,6 +32,7 @@
 </head>
 
 <body>
+  <div id="preloader"></div>
   
 
   <section>
@@ -349,8 +352,13 @@
 
 
 
-
-
+<!-- heare now are the add loder after you change the  according to you -->
+<script>
+  var loader = document.getElementById("preloader");
+  window.addEventListener("load" , function(){
+    loader.style.display = "none";
+  })
+</script>
 
 </body>
 
