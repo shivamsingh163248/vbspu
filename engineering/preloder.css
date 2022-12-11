@@ -4,6 +4,12 @@
     width: 100%;
     position: fixed;
     z-index: 100;
-    background-size: 5%;
+    background-size: 150px;
     
+    
+}
+@media screen and (max-width: 400px){
+    #preloader{
+        background-size: 100px;
+}
 }
