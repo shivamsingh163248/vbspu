@@ -13,6 +13,22 @@
   font-weight: 700;
   text-decoration: underline;
 }
+/* write the property of the feed back form */
+.footersection1 .Feedback{
+	
+	text-align: center;
+	display: block;
+ font-size: 20px;
+ color: #f8f8f8;
+ text-decoration: none;
+
+  margin-top: 20px;
+  margin-left: 45%;
+  background-color: rgb(125, 22, 9);
+ 
+
+
+}
 
 .footer-distributed{
 	background: linear-gradient(to right, #070816 -10%, #0d0d63 100%);
