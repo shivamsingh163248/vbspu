@@ -11,7 +11,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   position: relative;
   display: grid;
  
-  background-color: #ee7f7f;
+  background: linear-gradient(to right, #c0c0c3 -10%, #ffffff 100%);
 }
 
 /* Next & previous buttons */
@@ -78,7 +78,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   
 }
 
-.active, .dott1:hover {
+.activee, .dott1:hover {
   background-color: #dc2e2e;
 }
 
