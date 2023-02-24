@@ -1,6 +1,24 @@
 * {
     box-sizing: border-box;
   }
+
+
+ /* this code writin for the diffrent section  */
+.notificarionname{
+  color: #c33c3c;
+  width: 100%;
+  height: 70px;
+  background-color: #dad9d9;
+  font-size: 48px;
+  float: left;
+  padding: 1px;
+  font-weight: 900;
+  text-decoration: underline;
+  box-shadow: 0 4px 8px 0 rgb(185, 37, 37);
+  box-sizing: border-box;
+  position: relative;
+}
+
   
   /* Create two unequal columns that floats next to each other */
   .linknotificationrow .linknotificationstrecture .column {
@@ -75,6 +93,10 @@
     -moz-animation: marquees 1s linear infinite;
     -webkit-animation: marquees 1s linear infinite;
     animation: marquees 10s linear infinite;
+}
+.linknotificationstrecture .marquees p:hover{
+  animation: marquees 30s linear infinite;
+  cursor: pointer;
 }
 
 

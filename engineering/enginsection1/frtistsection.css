@@ -60,9 +60,9 @@ body {
 .mySlides {display: none;}
 
 
+/* --------------------------- this may be error img due to match ----------------------------     */
 
-
-img {
+.unsitlogo img {
     
   overflow: hidden;
      object-fit: contain;
@@ -73,6 +73,8 @@ img {
      align-items: center;
  
 }
+
+/* -------------------------------------------------------     */
 
 
 
